@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Math Program</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body style="background-color:#1899b7">
+	<header> <img src="http://clemdog.com/viewer/math_final-01.png" style="max-width:100%;height:auto;""> </header>
+	<h2 style="color:#ffffff;">
+<center>
+
+<div class="w3-container">
+
+<table class="w3-table">
+<table align="center">
+
+<tr>
+
+<td>
+<center>
+<h1> It's fun to do <%= result %>! </h1>
+<% first_number = p1.to_i %>
+<% second_number = p2.to_i %>
+
+<% 
+if result == "addition"
+	 final_result = addition(first_number, second_number) 
+elsif result == "subtraction"
+	 final_result = subtraction(first_number, second_number) 
+elsif result == "multiplication"
+		final_result = multiplication(first_number, second_number) 
+elsif result == "division"
+	final_result = division(first_number, second_number) 
+else
+	final_result = "Invalid choice."
+end
+%>
+
+Your results are: <%= final_result %>
+<h5> Want to try again?</h5>
+<a href='//localhost:4567'>Go!</a>"
+
+</td>
+
+</table>
+</table>
+</div>
+</center>
+</h2>
+</body>
+</html>
+

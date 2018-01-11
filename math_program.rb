@@ -1,15 +1,19 @@
-def add(x,y)
+def addition(x,y)
 	x+y
 end
 
-def subtract(y,x)
+def subtraction(y,x)
 	x-y
 end
 
-def multiply(a,b)
+def multiplication(a,b)
 	a*b
 end
 
-def divide(c,d)
+def division(c,d)
 	c/d
 end
+
+
+
+

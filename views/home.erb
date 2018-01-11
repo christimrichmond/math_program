@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-  <title>Christi's Math Program</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <title>Math Program</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 </head>
 
-<body style="background-color:#212121">
-  <p id="getdate"></p>
+<body style="background-color:#1899b7">
+<header> <img src="http://clemdog.com/viewer/math_final-01.png" style="max-width:100%;height:auto;"> </header>
+<h2 style="color:#ffffff;">
+<center>
 
-<script>
-document.getElementById("getdate").innerHTML = Date();
-</script>
+<div class="w3-container">
 
 
-<h3>Welcome!</h3>
+<table class="w3-table">
+<table align="center">
 
-<!-- <ul class="list-unstyled"> -->
-<form method='post' action='math_type'>
-  <input type="radio" name="Addition" value="Addition"> Addition<br>
-  <input type="radio" name="Subtraction" value="Subtraction"> Subtraction<br>
-  <input type="radio" name="Multiplication" value="Multiplication"> Multiplication<br>
-<br>
-<br>
-  <button type='submit' class='btn btn-primary'>Select</button>
-<!-- </ul> -->
+<tr>
+
+<td>
+<center>
+<h3> Please type your operator selection. (Addition, subtraction, multiplication or division.) </h3>
+	<br>
+	<form method="post" action="math">
+	<input type="text" name="math_type">
+	<br>
+<h3> Please type the two numbers you'd like to calculate.</h3>
+ 	<br>
+	<input type="integer" name="p1">
+	<br>
+	<input type="integer" name="p2">
+	<br>
+	<br>
+	<input type="submit">
 </form>
+</td>
 
-
-
+</table>
+</table>
+</div>
+</center>
+</h2>
 </body>
 </html>

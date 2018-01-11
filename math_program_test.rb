@@ -1,6 +1,6 @@
 
 require "minitest/autorun"
-require_relative "coinchanger_pairing.rb"
+require_relative "math_program.rb"
 class MathProgram < Minitest::Test
 
   def test_add_1_plus_1_equals_2
